@@ -1,0 +1,7 @@
+{
+    "env":{
+        "CLIENT_ID":"10e880581b28435ba88304bd11bad2e2",
+        "CLIENT_SECRET":"979ed96ae5a941c5b6855135c758cfd5",
+        "CLIENT_URI":"http://localhost:8888"
+    }
+}
