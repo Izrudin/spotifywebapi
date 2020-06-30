@@ -8,9 +8,10 @@
  */
 
 var request = require('request'); // "Request" library
+var metadata = process.env;
 
-var client_id = 'CLIENT_ID'; // Your client id
-var client_secret = 'CLIENT_SECRET'; // Your secret
+var client_id = metadata.CLIENT_ID; // Your client id
+var client_secret = metadata.CLIENT_SECRET; // Your secret
 
 // your application requests authorization
 var authOptions = {
