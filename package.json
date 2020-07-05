@@ -3,7 +3,7 @@
   "name": "spotifywebapi",
   "description": "Example of the Spotify authorization flows through OAuth 2",
   "version": "1.0.0",
-  "main": "app.js",
+  "main": "authorization_code/app.js",
   "scripts": {
     "start": "nodemon app.js"
   },
