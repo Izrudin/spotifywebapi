@@ -9,6 +9,9 @@
 
 var express = require('express'); // Express web server framework
 var app = express();
+
+const portNumber = 8888;
+
 app.use(express.static(__dirname + '/public'));
-console.log('Listening on 8888');
-app.listen(8888);
+console.log('Server listening on port '+portNumber);
+app.listen(portNumber);

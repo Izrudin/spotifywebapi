@@ -43,4 +43,4 @@ And to run the Implicit Grant Code do:
     
 Then, open `http://localhost:8888` in a browser. 
 
-**By default the applications runs locally on port 8888. The port can be changed to whatever you want, just change in the '.listen()' method inside the app.js file you are trying to open and serve. Props to https://github.com/hughrawlinson for the nice guide and shematic. Enjoy! **
+** By default, the application runs locally on port 8888. The port can be changed to anything you desire. Just change the variable parameter on the '.listen()' method inside the app.js file you are trying to open and serve. Or change the 'portNumber' constant to whatever port you wish. OOP is implemented. Props to https://github.com/hughrawlinson for the nice guide and shematic. Enjoy! **
