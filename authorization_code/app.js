@@ -18,6 +18,8 @@ var client_id = metadata.CLIENT_ID // Your client id
 var client_secret = metadata.CLIENT_SECRET; // Your secret
 var redirect_uri = metadata.CLIENT_URI; // Your redirect uri
 
+const portNumber = 8888;
+
 /**
  * Generates a random string containing numbers and letters
  * @param  {number} length The length of the string
@@ -144,5 +146,5 @@ app.get('/refresh_token', function(req, res) {
   });
 });
 
-console.log('Listening on 8888');
-app.listen(8888);
+console.log('Server listening on port '+portNumber.toString());
+app.listen(portNumber);
